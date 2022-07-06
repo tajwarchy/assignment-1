@@ -13,7 +13,7 @@ body {
 
 .banner-text {
     text-align: center;
-    color: rgb(202, 199, 199);
+    color: white;
 }
 
 .banner-text h1 {
@@ -27,10 +27,56 @@ body {
     margin: 30px;
 }
 
-.banner-text a {
+a {
     text-decoration: none;
-    color: rgb(202, 199, 199);
+    color: white;
     background-color: orangered;
     padding: 10px 20px;
     border-radius: 10px;
+
+}
+
+#donation {
+    text-align: center;
+}
+
+.donation-txt h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.donation-txt{
+    margin-bottom: 50px;
+
+}
+span {
+    font-size: 25px;
+    margin: 5px;
+    
+}
+
+.amount {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    color: grey;
+    font-weight: 700;
+}
+#given-amount{
+    padding: 20px;
+    border: orangered solid ;
+    border-radius: 10px;
+    background-color: rgb(255, 146, 107);
+    color: orangered;
+    font-weight: 700;
+}
+input{
+    border: none;
+    border-bottom: 2px solid grey;
+    padding: 12px 20px;
+    
+}
+::placeholder{
+    text-align: center;
 }
