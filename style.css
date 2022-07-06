@@ -113,3 +113,18 @@ input{
     padding: 10px;
     text-align: center;
 }
+.contribution-txt h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+}
+.contribution-txt p{
+    font-size: 15px;
+}
+.contribution-img img{
+    width: 100%;
+}
+#contribution{
+    display: flex;
+    margin: 70px;
+}
