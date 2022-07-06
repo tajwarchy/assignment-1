@@ -128,3 +128,32 @@ input{
     display: flex;
     margin: 70px;
 }
+.get-updates{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.get-updates h1{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+}
+.up-mail{
+    display: inline;
+    background-color: rgb(250, 199, 105);
+    margin: 200px 300px;
+    padding: 50px 150px;
+}
+#updates{
+    margin: 5px;
+}
+#footer{
+    background-color: black;
+    margin: 200px 0 0 0;
+    padding-bottom: 20px;
+}
+.footer-txt{
+    color:white;
+    text-align: center;
+
+
+}
