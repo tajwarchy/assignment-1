@@ -50,11 +50,7 @@ a {
     margin-bottom: 50px;
 
 }
-span {
-    font-size: 25px;
-    margin: 5px;
-    
-}
+
 
 .amount {
     background-color: whitesmoke;
@@ -62,6 +58,8 @@ span {
     border-radius: 10px;
     color: grey;
     font-weight: 700;
+    font-size: 25px;
+    margin: 5px;
 }
 #given-amount{
     padding: 20px;
@@ -70,6 +68,8 @@ span {
     background-color: rgb(255, 146, 107);
     color: orangered;
     font-weight: 700;
+    font-size: 25px;
+    margin: 5px;
 }
 input{
     border: none;
@@ -78,5 +78,38 @@ input{
     
 }
 ::placeholder{
+    text-align: center;
+}
+.donate-plan-txt{
+    text-align: center;
+    padding: 0 350px;
+}
+.donate-plan-txt h1{
+    font-size: 40px;
+}
+#plan-div{
+    margin: 50px 0 0 50px;
+}
+.plan{
+    display: inline-block;
+    margin: 0 0 0 20px;
+    font-size: 10px;
+}
+.plan h5{
+    font-size: 20px;
+}
+#food{
+    background-color: rgb(8, 216, 188);
+    padding: 10px;
+    text-align: center;
+}
+#shelter{
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+}
+#edu{
+    background-color: grey;
+    padding: 10px;
     text-align: center;
 }
